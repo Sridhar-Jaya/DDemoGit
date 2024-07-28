@@ -19,7 +19,7 @@ public class googlesearchsteps {
 				"C:/Users/sri/eclipse-workspace/Cucumberjavaa/src/test/resources/drivers/chromedriver.exe");
 
 		driver = new ChromeDriver();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver = new ChromeDriver();
