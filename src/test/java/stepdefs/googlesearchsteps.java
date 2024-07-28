@@ -22,7 +22,7 @@ public class googlesearchsteps {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
-		driver.close();
+		driver.quit();
 	}
 
 	@And("user is on google search page")
